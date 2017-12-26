@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+#caythong {
+    background-image: url("../images/caythong.png");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 500px;
+    position: fixed;
+    bottom: -30px;
+    left: -4px;
+    z-index: 10000;
+}
+#nha {
+    width: 400px;
+    height: auto;
+    position: fixed;
+    bottom: -50px;
+    right: 0px;
+    z-index: 100000;
+}
+
+#nen {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 10000;
+}
+
+#message {
+    position: absolute;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 48px;
+    margin-left: -330px;
+    margin-top: -100px;
+    text-align: center;
+}
+/* #onggianoel {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 100;
+} */
+/* #snow {
+   
+} */
